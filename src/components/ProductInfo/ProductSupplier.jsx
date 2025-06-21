@@ -99,7 +99,7 @@ const ProductSupplier = ({ currentProduct }) => {
       ) : (
         <ButtonComponent
           type={"button"}
-          className="bg-[#0D6EFD] cursor-pointer text-white w-full rounded-lg py-2 mt-4"
+          className="bg-[#0D6EFD] cursor-pointer hidden sm:inline-block  text-white w-full rounded-lg py-2 mt-4"
           onClick={handleInquiry}
         >
           Send Inquiry
