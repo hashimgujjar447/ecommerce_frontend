@@ -23,7 +23,7 @@ const Login = () => {
 
     try {
       const response = await login(userData);
-      console.log(response);
+      // console.log(response);
 
       if (response) {
         try {
@@ -41,7 +41,7 @@ const Login = () => {
         }
       }
     } catch (error) {
-      console.error("Login failed:", error);
+      // console.error("Login failed:", error);
       toast.error("Invalid credentials, please try again."); // ✅ show toast before anything
       setError(true);
     } finally {
