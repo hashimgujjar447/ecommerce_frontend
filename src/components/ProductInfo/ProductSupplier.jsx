@@ -87,7 +87,7 @@ const ProductSupplier = ({ currentProduct }) => {
           </div>
         ))}
       </div>
-      $
+
       {user && currentProduct && currentProduct.inStock ? (
         <ButtonComponent
           type={"button"}
